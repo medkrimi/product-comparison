@@ -1,40 +1,40 @@
 export const  products=[{
     "id": "1",
-    "name": "Cherry",
-    "image": "https://www.canr.msu.edu/uploads/236/58624/cherries.jpg",
+    "name": "Dabur Nature Care Regular",
+    "image": "https://sea-dabur.sitecoresandbox.cloud/api/public/content/2b72de0611364a038f5a06badd2e0000?v=a7035b67",
     "price": "$1.99",
     "colors": ["red", "green", "blue"],
-    "condition": "Fresh",
-    "description": "Two Cherries",
-    "vendors": ["Fresh Fruits Market", "Fruit Ninja"]
+    "category": "Fresh",
+    "description": "Digestive Drinks",
+    "division": ["HC"]
   },
   {
     "id": "2",
-    "name": "Orange",
-    "image": "https://s3-eu-west-1.amazonaws.com/nucig/Flavours/eliquid-orange-flavour-500.jpg",
+    "name": "Dabur Hajmola",
+    "image": "https://sea-dabur.sitecoresandbox.cloud/api/public/content/858d697798f547788cd2e333ee64120e?v=ed5e5134",
     "price": "$2.99",
     "colors": ["green", "blue"],
-    "condition": "Frozen",
+    "category": "Digestive Drinks",
     "description": "Giant Orange",
-    "vendors": ["Families Market"]
+    "division": ["HPC"]
   },
   {
     "id": "3",
-    "name": "Nuts",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/71Y0nx6ayfL._SX425_.jpg",
+    "name": "Dabur Meswak",
+    "image": "https://sea-dabur.sitecoresandbox.cloud/api/public/content/c7d567e9a1244741bae233c053ecea6c?v=50f60d10",
     "price": "$1.00",
     "colors": ["red"],
-    "condition": "Frozen",
+    "category": " Oral Care",
     "description": "Mixed Nuts",
-    "vendors": ["Amazon Distributor"]
+    "division": ["HPC"]
   },
   {
     "id": "4",
-    "name": "Strawberry",
-    "image": "https://5.imimg.com/data5/CK/LM/MY-46960546/fresh-red-strawberry-500x500.jpg",
+    "name": "Dabur Red Paste",
+    "image": "https://sea-dabur.sitecoresandbox.cloud/api/public/content/725f11850fa84c69bc54ea521036be20?v=4bf6fba0",
     "price": "$1.49",
     "colors": ["blue"],
-    "condition": "Fresh",
+    "category": "Oral Care",
     "description": "Just Strawberry",
-    "vendors": ["Big Basket"]
+    "division": ["HPC"]
  }]
