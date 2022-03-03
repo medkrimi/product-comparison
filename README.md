@@ -2,17 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 CSS Framework [Material UI](https://material-ui.com)
 
-## Demo
-Checkout the [Demo](https://shabnam701.github.io/product-comparison)
+## Running Locally in development mode
+1. Clone this repo 
+2. run `yarn install`
+3. run `yarn start`
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Data can be updated in /data
