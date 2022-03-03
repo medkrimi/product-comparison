@@ -1,6 +1,6 @@
 export const filters = [
     "price",
     "colors",
-    "condition",
+    "category",
     "description",
-    "vendors"]
+    "division"]
