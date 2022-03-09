@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ch-product-comparison.vercel.app/",
+  "homepage": ".",
   "name": "product-comparison",
   "version": "0.1.0",
   "private": true,
@@ -9,16 +9,18 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "react-scripts": "3.3.0"
   },
   "scripts": {
     "predeploy": "npm run build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run build:app && npm run build:bundle",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:app": "react-scripts build",
+    "build:bundle": "webpack --mode production"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,5 +33,12 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "8.0.6",
+    "terser-webpack-plugin": "4.2.3",
+    "webpack-cli": "4.9.2"
+  }
 }
